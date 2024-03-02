@@ -1,0 +1,125 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #d8dbe2; /* Light gray background */
+    color: #001b2e; /* Dark blue text */
+}
+
+/* Header styles */
+header {
+    background-color: #001b2e; /* Dark blue background */
+    color: #d8dbe2; /* Light gray text */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Rounded edges */
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #d8dbe2; /* Light gray text for navigation links */
+    text-decoration: none;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    background-color: #a9bcd0; /* Light blue background for sections */
+    border: 1px solid #d8dbe2; /* Light gray border for sections */
+    border-radius: 10px; /* Rounded edges */
+    margin-bottom: 10px; /* Adjust margin bottom as needed */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+section:last-child {
+    margin-bottom: 0; /* Remove margin bottom for the last section */
+}
+
+section h2 {
+    margin-top: 0; /* Remove top margin for h2 */
+    margin-bottom: 10px;
+}
+
+/* Bio section styles */
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bio img {
+    width: 300px; /* Increased width */
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.bio-text {
+    font-size: 18px; /* Bigger font size for bio text */
+}
+
+/* Skills section styles */
+.skills-list {
+    list-style-type: none;
+}
+
+.skills-list li {
+    margin-bottom: 5px;
+    font-size: 18px; /* Bigger font size for skills list */
+}
+
+/* Project section styles */
+.project {
+    background-color: #d8dbe2; /* Light gray background for projects */
+    border: 1px solid #001b2e; /* Dark blue border for projects */
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #001b2e; /* Dark blue text for project content */
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info li {
+    margin-bottom: 5px;
+}
+
+.contact-info a {
+    color: #001b2e; /* Dark blue text for contact links */
+    text-decoration: none;
+}
